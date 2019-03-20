@@ -46,7 +46,7 @@ $ python main.py
 <br/>
 
 ## Dependencies
-* [Python3.6+](https://www.continuum.io/downloads)
+* [Python 3.6+](https://docs.conda.io/en/latest/miniconda.html)
 * [MXNet 1.4.0](http://mxnet.incubator.apache.org/)
 
 
