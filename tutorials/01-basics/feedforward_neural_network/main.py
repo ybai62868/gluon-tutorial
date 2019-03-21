@@ -27,7 +27,7 @@ train_dataset = train_dataset.transform_first(transformer)
 
 test_dataset = datasets.FashionMNIST(root = '../../data',
                                      train = False)
-                                     
+
 test_dataset = test_dataset.transform_first(transformer)
 
 
@@ -68,8 +68,7 @@ optimizer = gluon.Trainer(model.collect_params(), 'adam', {'learning_rate': lear
 total_step = len(train_loader)
 for epoch in range(num_epochs):
     for i, (images, labels) in enumerate(train_loader):
-        images = images.reshape(-1, 28*28)
-        images = images.as_in_context(device)
+        images = images.reshape(-1, 28*28).as_in_context(device)
         labels = labels.as_in_context(device)
 
         # Forward pass
@@ -91,8 +90,7 @@ for epoch in range(num_epochs):
 correct = 0
 total = 0
 for images, labels in test_loader:
-    images = images.reshape(-1, 28*28)
-    images = images.as_in_context(device)
+    images = images.reshape(-1, 28*28).as_in_context(device)
     outputs = model(images)
     outputs = outputs.as_in_context(device)
     predicted = outputs.argmax(axis = 1)
