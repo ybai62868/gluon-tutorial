@@ -1,0 +1,4 @@
+*.params
+*.zip
+data/
+.ipynb_checkpoints
