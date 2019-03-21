@@ -2,12 +2,10 @@
 
 --------------------------------------------------------------------------------
 
-This repository provides tutorial code for deep learning researchers && engineers to learn [Gluon](http://mxnet.incubator.apache.org/). 
-
+This repository provides tutorial code for deep learning researchers && engineers to learn [Gluon](http://mxnet.incubator.apache.org/).  
 In the tutorial, most of the models were implemented with less than 50 lines of code.
 You will find Gluon and [PyTorch](https://pytorch.org/) share lots of similarities.
-After reading [PyTorch to MXNet](https://github.com/zackchase/mxnet-the-straight-dope/blob/master/cheatsheets/pytorch_gluon.md), you can easily convert your project between Pytorch and Gluon and learn both of them well.
-
+After reading [PyTorch to MXNet](https://github.com/zackchase/mxnet-the-straight-dope/blob/master/cheatsheets/pytorch_gluon.md), you can easily convert your project between Pytorch and Gluon and learn both of them well.  
 Before starting this tutorial, it is recommended to finish [Crash Course](https://beta.mxnet.io/guide/crash-course/index.html). Then you can read [Dive into Deep Learning](https://d2l.ai/) to get a more comprehensive study.
 
 
