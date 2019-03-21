@@ -13,11 +13,18 @@ Before starting this tutorial, it is recommended to finish [Crash Course](https:
 
 ## Table of Contents
 
-1. Basics
+#### 1. Basics
 * [Gluon Basics]()
 * [Linear Regression]()
 * [Logistic Regression]()
 * [Feedforward Neural Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/feedforward_neural_network/main.py)
+
+#### 2. Intermediate
+* [Convolutional Neural Network]()
+* [Deep Residual Network]()
+* [Recurrent Neural Network]()
+* [Bidirectional Recurrent Neural Network]()
+* [Language Model (RNN-LM)]()
 
 
 <!-- #### 1. Basics
