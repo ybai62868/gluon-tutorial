@@ -13,6 +13,13 @@ Before starting this tutorial, it is recommended to finish [Crash Course](https:
 
 ## Table of Contents
 
+1. Basics
+* [Gluon Basics]()
+* [Linear Regression]()
+* [Logistic Regression]()
+* [Feedforward Neural Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/feedforward_neural_network/main.py)
+
+
 <!-- #### 1. Basics
 * [Gluon Basics](https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/01-basics/pytorch_basics/main.py)
 * [Linear Regression](https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/01-basics/linear_regression/main.py#L22-L23)
