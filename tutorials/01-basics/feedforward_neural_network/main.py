@@ -73,8 +73,7 @@ for epoch in range(num_epochs):
 
         # Forward pass
         with autograd.record():
-            outputs = model(images)
-            outputs = outputs.as_in_context(device)
+            outputs = model(images).as_in_context(device)
             loss = criterion(outputs, labels)
         
         # Backward pass
@@ -91,8 +90,7 @@ correct = 0
 total = 0
 for images, labels in test_loader:
     images = images.reshape(-1, 28*28).as_in_context(device)
-    outputs = model(images)
-    outputs = outputs.as_in_context(device)
+    outputs = model(images).as_in_context(device)
     predicted = outputs.argmax(axis = 1)
     correct += (predicted == labels.astype('float32')).sum().asscalar()
     total += labels.size
