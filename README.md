@@ -75,9 +75,15 @@ $ python main.py
 * [MXNet 1.4.0](http://mxnet.incubator.apache.org/)
 
 
+<br/>
+
+## Author
+Yang Bai / [@YangBai](https://github.com/ybai62868)
+
 
 <br/>
 
 
 ## Note
 Inspired by the [pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial) writen by @yunjey
+
