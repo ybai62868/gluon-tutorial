@@ -26,6 +26,14 @@ Before starting this tutorial, it is recommended to finish [Crash Course](https:
 * [Bidirectional Recurrent Neural Network]()
 * [Language Model (RNN-LM)]()
 
+#### 3. Advanced
+* [Generative Adversarial Networks]()
+* [Variational Auto-Encoder]()
+* [Neural Style Transfer]()
+* [Image Captioning (CNN-RNN)]()
+
+#### Utilities
+* [TensorBoard in MXNet]()
 
 <!-- #### 1. Basics
 * [Gluon Basics](https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/01-basics/pytorch_basics/main.py)
