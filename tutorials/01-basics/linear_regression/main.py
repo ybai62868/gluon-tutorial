@@ -29,6 +29,8 @@ y_train = np.array([[1.7], [2.76], [2.09], [3.19], [1.694], [1.573],
 # Linear regression model
 model = nn.Dense(output_size)
 model.initialize(ctx=device)
+model.hybridize()
+
 
 # Loss and optimizer 
 criterion = gluon.loss.L2Loss()
