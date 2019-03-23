@@ -15,7 +15,7 @@ Before starting this tutorial, it is recommended to finish [Crash Course](https:
 
 #### 1. Basics
 * [Gluon Basics]()
-* [Linear Regression]()
+* [Linear Regression](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/linear_regression/main.py)
 * [Logistic Regression]()
 * [Feedforward Neural Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/feedforward_neural_network/main.py)
 
