@@ -20,7 +20,7 @@ Before starting this tutorial, it is recommended to finish [Crash Course](https:
 * [Feedforward Neural Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/feedforward_neural_network/main.py)
 
 #### 2. Intermediate
-* [Convolutional Neural Network]()
+* [Convolutional Neural Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/02-intermediate/convolutional_neural_network/main.py)
 * [Deep Residual Network]()
 * [Recurrent Neural Network]()
 * [Bidirectional Recurrent Neural Network]()
