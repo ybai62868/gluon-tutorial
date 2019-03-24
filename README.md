@@ -32,7 +32,7 @@ Before starting this tutorial, it is recommended to finish [Crash Course](https:
 * [Neural Style Transfer]()
 * [Image Captioning (CNN-RNN)]()
 
-#### Utilities
+#### 4. Utilities
 * [TensorBoard in MXNet]()
 
 <!-- #### 1. Basics
@@ -86,4 +86,4 @@ Yang Bai / [@YangBai](https://github.com/ybai62868)
 
 ## Note
 Inspired by the [pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial) writen by @yunjey
-
+Code will be continued.
