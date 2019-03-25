@@ -86,4 +86,8 @@ Yang Bai / [@YangBai](https://github.com/ybai62868)
 
 ## Note
 Inspired by the [pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial) writen by @yunjey
+
+
+<br/>
+
 Code will be continued.
