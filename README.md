@@ -16,12 +16,12 @@ Before starting this tutorial, it is recommended to finish [Crash Course](https:
 #### 1. Basics
 * [Gluon Basics]()
 * [Linear Regression](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/linear_regression/main.py)
-* [Logistic Regression]()
+* [Logistic Regression](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/logistic_regression/main.py)
 * [Feedforward Neural Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/feedforward_neural_network/main.py)
 
 #### 2. Intermediate
 * [Convolutional Neural Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/02-intermediate/convolutional_neural_network/main.py)
-* [Deep Residual Network]()
+* [Deep Residual Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/02-intermediate/deep_residual_network/main.py)
 * [Recurrent Neural Network]()
 * [Bidirectional Recurrent Neural Network]()
 * [Language Model (RNN-LM)]()
