@@ -22,6 +22,11 @@ Before starting this tutorial, it is recommended to finish [Crash Course](https:
 #### 2. Intermediate
 * - [x] [Convolutional Neural Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/02-intermediate/convolutional_neural_network/main.py)
 * - [x] [Deep Residual Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/02-intermediate/deep_residual_network/main.py)
+* - [ ] [Densely Connected Network]()
+* - [ ] [Squeeze Network]()
+* - [ ] [Inception Network]()
+* - [ ] [Mobile Network]()
+* - [ ] [Very Deep Convolutional Network]()
 * - [ ] [Recurrent Neural Network]()
 * - [ ] [Bidirectional Recurrent Neural Network]()
 * - [ ] [Language Model (RNN-LM)]()

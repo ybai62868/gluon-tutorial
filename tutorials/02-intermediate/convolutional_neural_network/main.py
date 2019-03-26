@@ -6,37 +6,37 @@ import time
 
 # Device configuration
 device = mx.cpu() if len(mx.test_utils.list_gpus()) == 0 else mx.gpu()
-print (device)
+print ('current ctx =>', device)
 
 # Hyper-parameters
-num_epochs = 3
+num_epochs = 5
 num_classes = 10
 batch_size = 100
 learning_rate = 0.001
 
-# FashionMNIST 
+# FashionMNIST (images and labels)
 transformer = transforms.Compose([transforms.ToTensor(),
-								  transforms.Normalize(0.13, 0.31)])
+                                  transforms.Normalize(0.13, 0.31)])
 
 train_dataset = datasets.FashionMNIST(root = '../../data',
-							  		  train = True)
+                                      train = True)
 
 train_dataset = train_dataset.transform_first(transformer)
 
-
 test_dataset = datasets.FashionMNIST(root = '../../data',
-	                				 train = False)
+                                     train = False)
 
 test_dataset = test_dataset.transform_first(transformer)
 
-# Data Loader
+
+# DataLoader (input pipeline)
 train_loader = gluon.data.DataLoader(dataset = train_dataset,
-									 batch_size = batch_size,
-									 shuffle = True)
+                                     batch_size = batch_size,
+                                     shuffle = True)
 
 test_loader = gluon.data.DataLoader(dataset = test_dataset,
-									batch_size = batch_size,
-									shuffle = False)
+                                    batch_size= batch_size,
+                                    shuffle = False)
 
 # Convolutional nerual network (two convolutional layers)
 class ConvNet(nn.HybridBlock):
@@ -45,17 +45,17 @@ class ConvNet(nn.HybridBlock):
 		with self.name_scope():
 			self.layer1 = nn.HybridSequential()
 			self.layer1.add(
-					nn.Conv2D(16, kernel_size = (5, 5), strides = (1, 1), padding = (2, 2)),
-					nn.BatchNorm(),
-					nn.Activation('relu'),
-					nn.MaxPool2D(pool_size = (2, 2), strides = (2, 2)),
+				nn.Conv2D(16, kernel_size = (5, 5), strides = (1, 1), padding = (2, 2)),
+				nn.BatchNorm(),
+				nn.Activation('relu'),
+				nn.MaxPool2D(pool_size = (2, 2), strides = (2, 2)),
 				)
 			self.layer2 = nn.HybridSequential()
 			self.layer2.add(
-					nn.Conv2D(32, kernel_size = (5, 5), strides = (1, 1), padding = (2, 2)),
-					nn.BatchNorm(),
-					nn.Activation('relu'),
-					nn.MaxPool2D(pool_size = (2, 2), strides = (2, 2))
+				nn.Conv2D(32, kernel_size = (5, 5), strides = (1, 1), padding = (2, 2)),
+				nn.BatchNorm(),
+				nn.Activation('relu'),
+				nn.MaxPool2D(pool_size = (2, 2), strides = (2, 2))
 				)
 			self.dense = nn.Dense(num_classes)
 
