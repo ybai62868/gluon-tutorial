@@ -14,14 +14,14 @@ Before starting this tutorial, it is recommended to finish [Crash Course](https:
 ## Table of Contents
 
 #### 1. Basics
-- [x][Gluon Basics](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/gluon_basics/main.py)
-* - [x][Linear Regression](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/linear_regression/main.py)
-* - [x][Logistic Regression](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/logistic_regression/main.py)
-* - [x][Feedforward Neural Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/feedforward_neural_network/main.py)
+- [x] [Gluon Basics](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/gluon_basics/main.py)
+* - [x] [Linear Regression](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/linear_regression/main.py)
+- [x] [Logistic Regression](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/logistic_regression/main.py)
+- [x] [Feedforward Neural Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/feedforward_neural_network/main.py)
 
 #### 2. Intermediate
-* - [x][Convolutional Neural Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/02-intermediate/convolutional_neural_network/main.py)
-* - [x][Deep Residual Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/02-intermediate/deep_residual_network/main.py)
+* - [x] [Convolutional Neural Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/02-intermediate/convolutional_neural_network/main.py)
+* - [x] [Deep Residual Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/02-intermediate/deep_residual_network/main.py)
 * - [ ][Recurrent Neural Network]()
 * - [ ][Bidirectional Recurrent Neural Network]()
 * - [ ][Language Model (RNN-LM)]()
