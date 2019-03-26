@@ -14,26 +14,26 @@ Before starting this tutorial, it is recommended to finish [Crash Course](https:
 ## Table of Contents
 
 #### 1. Basics
-* [Gluon Basics](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/gluon_basics/main.py)
-* [Linear Regression](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/linear_regression/main.py)
-* [Logistic Regression](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/logistic_regression/main.py)
-* [Feedforward Neural Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/feedforward_neural_network/main.py)
+* - [x][Gluon Basics](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/gluon_basics/main.py)
+* - [x][Linear Regression](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/linear_regression/main.py)
+* - [x][Logistic Regression](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/logistic_regression/main.py)
+* - [x][Feedforward Neural Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/01-basics/feedforward_neural_network/main.py)
 
 #### 2. Intermediate
-* [Convolutional Neural Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/02-intermediate/convolutional_neural_network/main.py)
-* [Deep Residual Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/02-intermediate/deep_residual_network/main.py)
-* [Recurrent Neural Network]()
-* [Bidirectional Recurrent Neural Network]()
-* [Language Model (RNN-LM)]()
+* - [x][Convolutional Neural Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/02-intermediate/convolutional_neural_network/main.py)
+* - [x][Deep Residual Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/02-intermediate/deep_residual_network/main.py)
+* - [ ][Recurrent Neural Network]()
+* - [ ][Bidirectional Recurrent Neural Network]()
+* - [ ][Language Model (RNN-LM)]()
 
 #### 3. Advanced
-* [Generative Adversarial Networks]()
-* [Variational Auto-Encoder]()
-* [Neural Style Transfer]()
-* [Image Captioning (CNN-RNN)]()
+* - [ ][Generative Adversarial Networks]()
+* - [ ][Variational Auto-Encoder]()
+* - [ ][Neural Style Transfer]()
+* - [ ][Image Captioning (CNN-RNN)]()
 
 #### 4. Utilities
-* [TensorBoard in MXNet]()
+* - [ ][TensorBoard in MXNet]()
 
 <!-- #### 1. Basics
 * [Gluon Basics](https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/01-basics/pytorch_basics/main.py)
