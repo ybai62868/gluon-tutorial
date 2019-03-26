@@ -9,20 +9,20 @@ import numpy as np
 #                         Table of Contents                          #
 # ================================================================== #
 
-# 1. Basic autograd example 1               (Line 25 to 39)
-# 2. Basic autograd example 2               (Line 46 to 83)
-# 3. Loading data from numpy                (Line 90 to 97)
-# 4. Input pipline                          (Line 104 to 129)
-# 5. Input pipline for custom dataset       (Line 136 to 156)
-# 6. Pretrained model                       (Line 163 to 176)
-# 7. Save and load model                    (Line 183 to 189) 
+# 1. Basic autograd example 1               (Line 25 to 43)
+# 2. Basic autograd example 2               (Line 50 to 89)
+# 3. Loading data from numpy                (Line 96 to 103)
+# 4. Input pipline                          (Line 110 to 134)
+# 5. Input pipline for custom dataset       (Line 141 to 161)
+# 6. Pretrained model                       (Line 168 to 180)
+# 7. Save and load model                    (Line 187 to 190) 
 
 
 # ================================================================== #
 #                     1. Basic autograd example 1                    #
 # ================================================================== #
 
-# Create ndarrays.
+# Create ndarray.
 x = nd.array([1])
 x.attach_grad()
 w = nd.array([2])
@@ -46,6 +46,8 @@ print (b.grad)      # b.grad = 1
 # ================================================================== #
 #                    2. Basic autograd example 2                     #
 # ================================================================== #
+
+# Create ndarray of shape (10, 3) and (10, 2).
 x = nd.random.randn(10, 3)
 y = nd.random.randn(10, 2)
 
