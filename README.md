@@ -26,8 +26,8 @@ Before starting this tutorial, it is recommended to finish [Crash Course](https:
 * - [ ] [Squeeze Network]()
 * - [ ] [Inception Network]()
 * - [ ] [Mobile Network]()
-* - [x] [Very Deep Convolutional Network]()
-* - [x] [Recurrent Neural Network]()
+* - [x] [Very Deep Convolutional Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/02-intermediate/vgg_network/main.py)
+* - [x] [Recurrent Neural Network](https://github.com/ybai62868/gluon-tutorial/blob/master/tutorials/02-intermediate/recurrent_neural_network/main.py)
 * - [ ] [Bidirectional Recurrent Neural Network]()
 * - [ ] [Language Model (RNN-LM)]()
 
