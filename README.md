@@ -26,8 +26,8 @@ Before starting this tutorial, it is recommended to finish [Crash Course](https:
 * - [ ] [Squeeze Network]()
 * - [ ] [Inception Network]()
 * - [ ] [Mobile Network]()
-* - [ ] [Very Deep Convolutional Network]()
-* - [ ] [Recurrent Neural Network]()
+* - [x] [Very Deep Convolutional Network]()
+* - [x] [Recurrent Neural Network]()
 * - [ ] [Bidirectional Recurrent Neural Network]()
 * - [ ] [Language Model (RNN-LM)]()
 
