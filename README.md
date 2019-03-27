@@ -32,7 +32,9 @@ Before starting this tutorial, it is recommended to finish [Crash Course](https:
 * - [ ] [Language Model (RNN-LM)]()
 
 #### 3. Advanced
-* - [ ] [Generative Adversarial Networks]()
+* - [ ] [Single Shot Detection]()
+* - [ ] [Fully Convolutional Network]()
+* - [ ] [Generative Adversarial Network]()
 * - [ ] [Variational Auto-Encoder]()
 * - [ ] [Neural Style Transfer]()
 * - [ ] [Image Captioning (CNN-RNN)]()
