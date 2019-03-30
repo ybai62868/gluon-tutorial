@@ -36,6 +36,7 @@ After reading [PyTorch to MXNet](https://github.com/zackchase/mxnet-the-straight
 * - [ ] [Generative Adversarial Network]()
 * - [ ] [Variational Auto-Encoder]()
 * - [ ] [Neural Style Transfer]()
+* - [ ] [Facial Expression Recognition]()
 * - [ ] [Image Captioning (CNN-RNN)]()
 
 #### 4. Utilities
